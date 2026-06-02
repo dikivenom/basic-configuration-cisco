@@ -53,7 +53,7 @@ The following commands are used to configure Router-1 and enable communication b
 
 ### Configure Router Hostname
 
-```bash
+```
 Router> enable
 Router# configure terminal
 Router(config)# hostname Router-1
@@ -155,7 +155,7 @@ Router-1# show ip route
 
 Test connectivity between devices:
 
-```bash
+```
 PC-A> ping 192.168.1.11
 PC-A> ping 192.168.2.20
 PC-A> ping 192.168.2.22
