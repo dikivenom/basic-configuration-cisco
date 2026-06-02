@@ -62,7 +62,7 @@ Router(config)# exit
 
 ### Configure Enable Secret Password (Optional)
 
-```bash
+```
 Router-1> enable
 Router-1# configure terminal
 Router-1(config)# enable secret admin123
@@ -71,7 +71,7 @@ Router-1(config)# exit
 
 ### Configure Interface FastEthernet 0/0
 
-```bash
+```
 Router-1> enable
 Router-1# configure terminal
 Router-1(config)# interface fa0/0
@@ -82,7 +82,7 @@ Router-1(config-if)# exit
 
 ### Configure Interface FastEthernet 1/0
 
-```bash
+```
 Router-1> enable
 Router-1# configure terminal
 Router-1(config)# interface fa1/0
@@ -93,7 +93,7 @@ Router-1(config-if)# exit
 
 ### Save Configuration
 
-```bash
+```
 Router-1# copy running-config startup-config
 ```
 
